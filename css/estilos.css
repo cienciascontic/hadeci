@@ -1,13 +1,39 @@
-div.titulo
-{
-padding-left: 20px;
-padding-top: 10px;
+html {
+  font-size: 1rem;
 }
 
-p.parrafo
-{
-  padding-left: 30px;
-  padding-top: 10px;
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+hr.separador-h{
+ margin-top:0px;
+ margin-bottom:0px;
+ height:1px;
+ width:100%;
+ border-top:10px solid gray;
+}
+
+hr.separador-h-success{
+ margin-top:0px;
+ margin-bottom:0px;
+ height:1px;
+ width:100%;
+ border-top:10px solid green;
 }
 
 body.conpatrondefondo
@@ -17,6 +43,13 @@ body.conpatrondefondo
 .navbar-custom {
     background-color: rgba(255,255,250,.8);
 }
+
+.btn-success-azul
+{
+background-color: #0F5D9E;
+color: #FFFFFF;
+}
+
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
@@ -30,10 +63,4 @@ body.conpatrondefondo
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: #ffffff;
-}
-
-.btn-success-azul
-{
-background-color: #0F5D9E;
-color: #FFFFFF;
 }
