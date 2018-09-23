@@ -11,48 +11,59 @@
     <title>Inscripción al hackatón Desafíos Científicos 2018</title>
   </head>
 
-  <body class="conpatrondefondo">
-    <!-- Barra de navegación -->
-    <header>
-     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
-      <nav class="navbar navbar-expand-sm navbar-custom">
-    <a class="navbar-brand" href="#"><img src="imgs/logo-HDC2018-ancho.png" width="70%" alt=""></a>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-
-          <a class="nav-link" href="index.html"><button type="button" class="btn btn-warning btn-lg">Volver a la página principal</button></a>
-        </li>
-      </ul>
+    <!-- Primera barra de navegación  -->
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #f2d333;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" style="margin-left:60rem" id="navbarSupportedContent">
+<a href="index.html"><button type="button" class="btn  btn-outline-dark" style="background-color: #f2d333;">Volver a la página principal</button></a>
     </div>
     </nav>
-    </header>
-    <!-- fin barra de navegación -->
 
-      <!-- Formulario de inscripción -->
-<br><br>
-      <div class="card mx-auto text-black bg-light mb-3" style="max-width: 75rem;">
-        <div class="card-header bg-warning"><h5>Formulario de inscripción</h5></div>
-        <div class="card-body">
-          <h5 class="card-title"></h5>
-          <p class="card-text text-dark">
-            <!-- Acá empieza el formulario -->
-            <form>
+    <!-- Segunda barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <img src="imgs/banner-dupla-educacion-BA.png" height="60" alt="">
+    <img src="imgs/LogoHDC2018_3D.png" height="90" alt="" style="padding-left:55rem;">
+    </nav>
+
+    <!-- fin barra de navegación -->
+<div class="jumbotron bg-light">
+  <!-- Formulario de inscripción -->
+<!-- Cabecera -->
+<div class="card mx-auto text-black bg-light mb-3" style="max-width: 75rem";>
+<div class="card-header" style="background:#f2d333"><h5>Formulario de inscripción</h5></div>
+<div class="card-body">
+  <!-- <h5 class="card-title"></h5> Este es el subtítulo -->
+    <p class="card-text text-dark">
+        <!-- Acá empieza el formulario -->
+        <form>
           <div class="form-group">
-              <label for="usr">Apellido:</label>
-              <input type="text" class="form-control" id="usr">
-              <label for="usr">Nombre:</label>
-              <input type="text" class="form-control" id="usr">
-              <label for="exampleInputEmail1">Correo electrónico</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su dirección de email">
+            <form>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+              </div>
+            </form>
+
+            <label for="exampleInputEmail1">Correo electrónico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su dirección de email">
             <small id="emailHelp" class="form-text text-muted">No compartiremos su dirección con nadie.</small>
           </div>
-          
           <button type="submit" class="btn btn-primary">Enviar</button>
-          </form></p>
-        </div>
-      </div>
+        </form>
+      </p>
+    </div>
+  </div>
+
+<!-- Repetir formulario -->
+</div>
+
 
 <!-- Google Form
 <div align="center">
