@@ -9,68 +9,83 @@
     <link href="css/sticky-footer.css" rel="stylesheet">
     <title>Hackatón Desafíos Científicos</title>
   </head>
-
   <body>
-    <!-- Primer barra de navegación (sticky top) -->
-    <nav class="navbar sticky-top navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="imgs/logo-HDC2018-ancho.png" width="70%" alt=""></a>
+    <!-- Primera barra de navegación  -->
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #f2d333;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" style="margin-left:70rem" id="navbarSupportedContent">
+<a href="inscripcion.html"><button type="button" class="btn  btn-outline-dark" style="background-color: #f2d333;">Inscribirse</button></a>
+    </div>
+    </nav>
 
+    <!-- Segunda barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <img src="imgs/banner-dupla-educacion-BA.png" height="60" alt="">
+    <img src="imgs/LogoHDC2018_3D.png" height="90" alt="" style="padding-left:55rem;">
+    </nav>
+<!-- Imagen de chicos en hackatón
+<img src="imgs/img-hackaton-justo-con-titulo.jpg" alt="">
+-->
+<!-- "Example" de Jumbotron con menú -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+      <div class="collapse navbar-collapse" >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><b>Inicio</b> <span class="sr-only">(ésta)</span></a>
+          </li>
 
-  </button>
-    <ul class="navbar-nav mr-auto">
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="¿Qué buscás?" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-      </form>
-    </ul>
-    <a href="inscripcion.html"><button type="button" class="btn btn-warning btn-lg">Inscribirse</button></a>
-</nav>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <b>Preguntas frecuentes</b>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#que_es">¿Qué es?</a>
+              <a class="dropdown-item" href="#quienes_pueden_participar">¿Quiénes pueden participar?</a>
+              <a class="dropdown-item" href="#como_participar">¿Cómo participar?</a>
+              <a class="dropdown-item" href="#donde_se_realiza">¿Dónde se realiza?</a>
+              <a class="dropdown-item" href="#tematicas">Temáticas</a>
+              <a class="dropdown-item" href="#equipo_organizador">Equipo organizador</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#ediciones_pasadas">Ediciones pasadas</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>Contacto</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><b>Login</b></a>
+          </li>
+            <li class="nav-item">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" style="margin-left:155px" type="search" placeholder="¿Qué buscás?" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </li>
+        </ul>
 
-<!-- Segunda barra de navegación -->
-<nav class="navbar navbar-expand-lg navbar-light bg-warning">
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
-      <a class="nav-link" href="index.html"><b>Inicio</b> <span class="sr-only">(ésta)</span></a>
-    </li>
-
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <b>Preguntas frecuentes</b>
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="#que_es">¿Qué es?</a>
-        <a class="dropdown-item" href="#quienes_pueden_participar">¿Quiénes pueden participar?</a>
-        <a class="dropdown-item" href="#como_participar">¿Cómo participar?</a>
-        <a class="dropdown-item" href="#donde_se_realiza">¿Dónde se realiza?</a>
-        <a class="dropdown-item" href="#tematicas">Temáticas</a>
-        <a class="dropdown-item" href="#equipo_organizador">Equipo organizador</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#ediciones_pasadas">Ediciones pasadas</a>
       </div>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#"><b>Contacto</b></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="login.html"><b>Login</b></a>
-    </li>
-  </ul>
-</div>
-</nav>
-</header>
-<!-- Imagen de los chicos en el hackatón -->
-<img class="d-block w-100" src="imgs/img-hackaton-justo-con-titulo.jpg"   alt="">
-<br>
+    </nav>
+
+
+    <main role="main">
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+            <div class="jumbotron conimgdefondo">
+
+
+<h1 class="blanco"> Hackatón Desafíos Científicos </h1>
+
+
+      </div>
+      </div>
+    </main>
+
 <!-- Información -->
 <!-- Cards con fondo -->
 <!-- Nueva disposición -->
 <!-- ¿Qué es? -->
+
 <div class="contenedor">
   <div class="card-deck">
     <div class="card">
@@ -79,7 +94,7 @@
         <h5 class="card-title"><a name="que_es">¿Qué es?</a></h5>
         <p class="card-text">Desafíos Científicos es una propuesta que promueve el abordaje de diversos desafíos regionales, globales y espaciales y la búsqueda de su resolución a lo largo de dos jornadas de trabajo.
         <br>
-          Los estudiantes trabajan en equipos de entre <strong>3 a 5 estudiantes</strong> y eligen una entre <strong>cuatro temáticas</strong> posibles a las cuales pertenecen los problemas. Los problemas abordan aspectos del mundo real.
+          Los estudiantes trabajan en equipos de entre <strong>5 a 8 estudiantes</strong> y eligen una entre <strong>cuatro temáticas</strong> posibles a las cuales pertenecen los problemas. Los problemas abordan aspectos del mundo real.
         <br>
         </p>
       </div>
@@ -89,8 +104,8 @@
       <img class="card-img-top" src="imgs/hdc2017-2.jpg" alt="estudiantes en hackatón">
       <div class="card-body">
         <h5 class="card-title"><a name="quienes_pueden_participar">¿Quiénes pueden participar?</a></h5>
-        <p class="card-text">Desafíos Científicos está destinado a <b>estudiantes de 16 a 19 años</b> a la fecha de realización y pueden provenir de cualquier institución oficial del sistema educativo argentino.
-      <br>Los estudiantes participantes deben ser <b>acompañados por un adulto cada 8 estudiantes</b>.
+        <p class="card-text">Desafíos Científicos está destinado a <b>estudiantes de 16 a 19 años</b> a la fecha de realización y pueden provenir de cualquier institución oficial del sistema educativo de la Ciudad de Buenos Aires.
+      <br>Los estudiantes participantes deben ser <b>acompañados por un adulto cada 10 (diez) estudiantes</b>.
 
       Los equipos son armados por un equipo central en base a las <a href="#tematicas">temáticas</a> elegidas por los estudiantes para asegurar la heterogeneidad.Los equipos trabajan durante un día y medio para encontrar soluciones a problemas reales vinculados al enfoque de ciencia, tecnología y sociedad.
         <br></p>
@@ -113,7 +128,7 @@
       <img class="card-img-top" src="imgs/hdc2017-4.jpg" alt="estudiantes en hackatón">
       <div class="card-body">
         <h5 class="card-title"><a name="donde_se_realiza">¿Dónde se realiza?</a></h5>
-        <p class="card-text">El evento se llevará a cabo en <b>La Usina del Arte, Agustín R. Caffarena 1, barrio de La Boca</b>, donde más de 500 estudiantes y 130 docentes se repartirán en equipos conformados por representantes de escuelas diferentes. Durante la actividad se promoverá la imaginación, el trabajo colaborativo y el espíritu emprendedor.</p>
+        <p class="card-text">El evento se llevará a cabo en <a href="https://www.google.com.ar/maps/place/La+Usina+del+Arte/@-34.6285277,-58.3591658,17z/data=!3m1!4b1!4m5!3m4!1s0x95a334c73fe3e107:0xeae5d0a098ae5c1!8m2!3d-34.6285321!4d-58.3569718" target="_blank"><b>La Usina del Arte, Agustín R. Caffarena 1, barrio de La Boca</b></a> , donde más de 500 estudiantes y 130 docentes se repartirán en equipos conformados por representantes de escuelas diferentes. Durante la actividad se promoverá la imaginación, el trabajo colaborativo y el espíritu emprendedor.</p>
       </div>
 
     </div>
@@ -121,7 +136,14 @@
       <img class="card-img-top" src="imgs/hdc2017-5.jpg" alt="estudiantes en hackatón">
       <div class="card-body">
         <h5 class="card-title"><a name="tematicas">Temáticas</a></h5>
-        <p class="card-text">Las cuatro temáticas que aborda el hackatón "Desafíos Científicos" son <b>Ciencias Espaciales; Gestión Territorial y Urbana; Ciencias de la Vida; y Ciencia y Arte</b>. Los trabajos son evaluados por un jurado y los ganadores de cada temática obtienen la posibilidad de viajar a Bariloche a visitar el Centro Atómico Bariloche, INVAP y el Instituto Balseiro, entre otras organizaciones.</p>
+        <p class="card-text">Las cuatro temáticas que aborda el hackatón "Desafíos Científicos" son:
+          <ul>
+            <li>Ciencias Espaciales</li>
+            <li>Gestion territorial y Urbana</li>
+            <li>Ciencias de la Vida</li>
+            <li>Ciencia y Arte</li>
+          </ul>
+          Los trabajos son evaluados por un jurado y los ganadores de cada temática ingresan al <b>Programa Desafíos Científicos</b> que involucra actividades en centros de ciencia, tecnología y arte de vanguardia en el país.</p>
       </div>
 
     </div>
@@ -129,7 +151,7 @@
       <img class="card-img-top" src="imgs/hdc2017-6.jpg" alt="estudiantes en hackatón">
       <div class="card-body">
         <h5 class="card-title"><a name="equipo_organizador">Equipo organizador</a></h5>
-        <p class="card-text">El hackatón "Desafíos Científicos" está organizador por el <a href="http://www.buenosaires.gob.ar/educacion/escuelas/planeamiento-educativo/enlace-ciencias" target="_blank"><b>Programa Enlace Ciencias</b></a>, una iniciativa para la mejora de la enseñanza de las ciencias con tecnología. Enlace Ciencias es un programa dependiente de la <a href="http://www.buenosaires.gob.ar/educacion/institucional-subsecretaria-de-planeamiento-e-innovacion-educativa/dg-planeamiento-educativo" target="_blank"><b>Dirección General de Planeamiento Educativo</b></a> del Ministerio de Educación e Innovación del Gobierno de la Ciudad Autónoma de Buenos Aires.</p>
+        <p class="card-text">El hackatón "Desafíos Científicos" está organizador por el <a href="http://www.buenosaires.gob.ar/educacion/escuelas/planeamiento-educativo/enlace-ciencias" target="_blank"><b>Programa Enlace Ciencias</b></a>, una iniciativa para la mejora de la enseñanza de las ciencias y la tecnología. Enlace Ciencias es un programa dependiente de la <a href="http://www.buenosaires.gob.ar/educacion/institucional-subsecretaria-de-planeamiento-e-innovacion-educativa/dg-planeamiento-educativo" target="_blank"><b>Dirección General de Planeamiento Educativo</b></a> del Ministerio de Educación e Innovación del Gobierno de la Ciudad Autónoma de Buenos Aires.</p>
       </div>
 
     </div>
@@ -144,7 +166,7 @@
     </div>
     <div class="media-body" style="padding:20px";><h5><b>Manual del hackatón</b>
     </h5>
-  
+
         <a href="#" target="_blank">Acceder a la documentación</a>
     </div>
   </div>
