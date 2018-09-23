@@ -1,4 +1,12 @@
-
+.centrado
+{
+width: 20%;
+text-align: center;
+margin-left: 35%;
+}
+.alert {
+   width:100%;
+}
 /* The overlay effect (full height and width) - lays on top of the container and over the image */
 .overlay {
   position: absolute;
